@@ -32,6 +32,7 @@ https://drive.google.com/drive/u/3/folders/13Z7ntEX8ilBfhpvnuJIWahg9KDWDCS0X
 *******************************************************************************
 TOOLS USED:--
 
+Python
 Jupyter notebook
 IBM COGNOS
 MS EXCEL
