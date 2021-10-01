@@ -13,7 +13,7 @@ Visualizations :
 2. yield_data_dashboard.pdf
 
 
-Poster : TEAM ARROW POSTER (1).pdf
+Poster : TEAM ARROW POSTER.pdf
 
 hack.pptx ( A brief overview )
 
