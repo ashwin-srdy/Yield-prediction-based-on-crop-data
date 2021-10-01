@@ -17,7 +17,7 @@ Visualizations :
 Poster :
   TEAM ARROW POSTER.pdf
 
-  hack.pptx ( A brief overview )
+  Team Arrow ppt final.pdf ( A brief overview )
 
 *******************************************************************************
 VIDEO LINKS:
