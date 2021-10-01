@@ -4,10 +4,10 @@ prompt 1
 FILES
 *******************************************************************************
 
-Model Algorithm : TSIC HACK.ipynb
+Jupyter Notebook : TSIC HACK.ipynb
 
 
-Visualization :
+Visualizations :
 
 1. yield_data-dashboard_.pdf
 2. yield_data_dashboard.pdf
