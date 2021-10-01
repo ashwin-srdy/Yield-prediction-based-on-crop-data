@@ -37,7 +37,6 @@ References:
   https://drive.google.com/drive/u/3/folders/13Z7ntEX8ilBfhpvnuJIWahg9KDWDCS0X
   https://agri.telangana.gov.in/
   https://www.agrifarming.in/agriculture-farming-in-telangana-and-schemes
-  ![image](https://user-images.githubusercontent.com/66512139/135665768-7a247fa8-2884-4093-8752-a7514adc04ec.png)
 
 
 *******************************************************************************
