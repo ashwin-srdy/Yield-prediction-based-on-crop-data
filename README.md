@@ -18,6 +18,11 @@ Poster : TEAM ARROW POSTER (1).pdf
 hack.pptx ( A brief overview )
 
 *******************************************************************************
+VIDEO LINKS:
+
+https://drive.google.com/file/d/18P1r54Nse2NmUarucYTSX2peHe9m0zL-/view
+
+*******************************************************************************
 TEAM ARROW:--
 
 1. S Ashwin Kumar - https://github.com/ashwin-srdy
@@ -36,3 +41,8 @@ Python
 Jupyter notebook
 IBM COGNOS
 MS EXCEL
+
+*******************************************************************************
+EXTRAS:
+
+Code explanation video: https://drive.google.com/file/d/1qoKKATDuO7j31alh1gn35PAJaiKBk_z3/view?usp=sharing
