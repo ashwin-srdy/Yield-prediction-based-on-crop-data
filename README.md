@@ -19,6 +19,9 @@ Poster :
 
   Team Arrow ppt final.pdf ( A brief overview )
 
+Report :
+  REPORT.pdf
+
 *******************************************************************************
 VIDEO LINKS:
 
@@ -42,9 +45,9 @@ References:
 *******************************************************************************
 TOOLS USED:--
 
-  Python
-  Jupyter notebook
-  IBM COGNOS
+  Python,
+  Jupyter notebook,
+  IBM COGNOS,
   MS EXCEL
 
 *******************************************************************************
