@@ -10,7 +10,7 @@ Jupyter Notebook :
 
 Visualizations :
 
-  1. yield_data-dashboard_.pdf
+  1. yield_data-dashboard.pdf
   2. yield_data_dashboard.pdf
 
 
