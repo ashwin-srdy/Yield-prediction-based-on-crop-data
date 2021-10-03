@@ -1,0 +1,105 @@
+body{
+    background-color: #F0F8FF;
+    font-family: cursive;
+}
+.heading{
+    width: 50%;
+    margin-left: 400px;
+    font-size: 40px;
+    color: #1DB9C3;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.skill-row{
+    width: 70%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.agri-img{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}.zero-img{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.dva-heading{
+    text-align: center;
+    text-decoration: underline; 
+}
+.dva-result{
+    text-align: center;
+}
+.result-image{
+    width: 50%;
+    height: 50%;
+}
+.split {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+  .centered img{
+      width: 700px;
+      padding-top: 100px;
+  } 
+#dva{
+    margin-bottom: 550px;
+}
+.ml-heading{
+    text-align: center;
+    text-decoration: underline;
+}
+.mb{
+    width: 70%;
+    padding-left: 100px;
+}
+.con-heading{
+    text-align: center;
+    text-decoration: underline;
+}
+.con-1{
+    margin: 0 400px 0 100px;
+}
+.con-2{
+    margin: 0 100px 0 400px;
+}
+.con-3{
+    margin: 0 400px 0 100px;
+}
+.button{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color:#66FFCC;
+    margin-bottom: 50px;
+    cursor: pointer;
+}  
+    
+    
+    
+  

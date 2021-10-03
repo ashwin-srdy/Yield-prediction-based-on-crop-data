@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="input-page.css">
+    <title>Document</title>
+    <style>
+        
+        .dist-inp{
+            width: 30vw;
+        
+        }
+        .dist-inp-div{
+            display: inline-block;
+            margin-left: 5vw;
+            margin-top: 5vh;
+        }
+        .dist-inp>h3{
+            margin-top: 5vw;
+        }
+        
+        .season-inp{
+            width: 25vw;
+        }
+        .season-inp-div{
+            display: inline-block;
+            position: absolute;
+            left: 50vw;
+            top: 5vh;
+        }
+        
+        
+        
+        .crop-inp{
+            width: 30vw;
+        
+        }
+        .crop-inp-div{
+            display: inline-block;
+            position: absolute;
+            top:25vh;
+            left: 5vw;
+        }
+        
+        .crop-inp>h3{
+            margin-top: 5vw;
+        }
+        
+        .rain-div{
+            position: absolute;
+            top:45vh;
+            left: 5vw;
+            margin: 10px ;
+        }
+        .rain-div>input{
+            width: 200px;
+        }
+        
+        
+        .btn{
+            position: absolute;
+            top:59vh;
+            left: 5vw;
+            margin: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <form class="whole-form" action="/predict" method="post">
+
+    <div class="dist-inp-div">
+    <h3>District</h3>
+    <select class="form-select dist-inp" name="district" aria-label="Default select example">
+        
+        <option selected>select a District</option>
+        <option value="0">Adilabad</option>
+        <option value="1">Bhadradri Kothagudem</option>
+        <option value="2">Hanumakonda</option>
+        <option value="3">Hyderabad</option>
+        <option value="4">Jagtial</option>
+        <option value="5">Jangaon</option>
+        <option value="6">Jayashankar Bhupalpally</option>
+        <option value="7">Jogulamba Gadwal</option>
+        <option value="8">Kamareddy</option>
+        <option value="9">Karimnagar</option>
+        <option value="10">Khammam</option>
+        <option value="11">Kumuram Bheem</option>
+        <option value="12">Mahabubabad</option>
+        <option value="13">Mahabubnagar</option>
+        <option value="14">Mancherial</option>
+        <option value="15">Medak</option>
+        <option value="16">Medchal-Malkajgiri</option>
+        <option value="17">Mulugu</option>
+        <option value="18">Nagarkurnool</option>
+        <option value="19">Nalgonda</option>
+        <option value="20">Narayanpet</option>
+        <option value="21">Nirmal</option>
+        <option value="22">Nizamabad</option>
+        <option value="23">Peddapalli</option>
+        <option value="24">Rajanna Sircilla</option>
+        <option value="25">Rangareddy</option>
+        <option value="26">Sangareddy</option>
+        <option value="27">Siddipet</option>
+        <option value="28">Suryapet</option>
+        <option value="29">Vikarabad</option>
+        <option value="30">Wanaparthy</option>
+        <option value="31">Warangal</option>
+        <option value="32">Yadadri Bhuvanagiri</option>
+
+      </select>
+    </div>
+
+    <div class="season-inp-div">
+        <h3>Season</h3>
+        <select class="form-select season-inp" name="season" aria-label="Default select example">
+            <option selected>select a season </option>
+            <option value="0">Rabi</option>
+            <option value="1">Kharif</option>
+          </select>
+
+    </div>
+
+    <div class="crop-inp-div">
+        <h3>Crop</h3>
+        <select class="form-select crop-inp" name="crop" aria-label="Default select example">
+            <option selected>select the crop </option>
+            <option value="0">Groundnut</option>
+            <option value="1">maize</option>
+            <option value="1">bengal gram</option>
+          </select>
+
+    </div>
+    <div class="rain-div">
+        <h3><label for="rainfall">rainfall:mm(milli meter)</label></h3>
+        <input class="input-group input-group-sm" id="rainfall" name="rainfall" val="" type="text">
+    </div>
+
+    <p> <input class="btn btn-primary" type = "submit" value = "submit" /> </p>
+    <h4> {{p}} </h4>
+    </form>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: #F0F8FF;
+    font-family: cursive;
+}
+.heading{
+    width: 50%;
+    margin-left: 400px;
+    font-size: 40px;
+    color: #1DB9C3;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.skill-row{
+    width: 70%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.agri-img{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}.zero-img{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.dva-heading{
+    text-align: center;
+    text-decoration: underline; 
+}
+.dva-result{
+    text-align: center;
+}
+.result-image{
+    width: 50%;
+    height: 50%;
+}
+.split {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+  .centered img{
+      width: 700px;
+      padding-top: 100px;
+  } 
+#dva{
+    margin-bottom: 550px;
+}
+.ml-heading{
+    text-align: center;
+    text-decoration: underline;
+}
+.mb{
+    width: 70%;
+    padding-left: 100px;
+}
+.con-heading{
+    text-align: center;
+    text-decoration: underline;
+}
+.con-1{
+    margin: 0 400px 0 100px;
+}
+.con-2{
+    margin: 0 100px 0 400px;
+}
+.con-3{
+    margin: 0 400px 0 100px;
+}
+.button{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color:#66FFCC;
+    margin-bottom: 50px;
+    cursor: pointer;
+}  
+    
+    
+    </style>
+
+
+</head>
+<body>
+    <h1 class="heading">Data Visualization And Analysis 
+        of Factors effecting Current 
+        Agricultural Trends in the State 
+        of Telangana</h1>
+    <section id="intro">
+        <div class="agri">
+            <div class="skill-row">
+              <!-- <img class="agri-img" src="images/agriculture.jpg" alt="sword" width=25%> -->
+              <img class="agri-img" src="{{url_for('static', filename='/images/agriculture.jpg')}}" width="25%" />
+              <h3>Agriculture</h3>
+              <p>Agriculture plays a pivotal role in the economy of 
+                Telangana and the better performance of this sector is vital 
+                for inclusive growth. Agriculture is a way of life, a tradition 
+                that has shaped the culture and economic life of the people 
+                of Telangana. Therefore, it will continue to be central to all 
+                strategies for planned socio-economic development of the 
+                State. Maximum production is seen Warangal-Rural 
+                District.</p>
+            </div>
+            <div class="skill-row">
+                <!-- <img class="zero-img" src="images/zero.png" alt="sake" width=25%> -->
+                <img class="zero-img" src="{{url_for('static', filename='/images/zero.png')}}" width="25%" />
+                <h3>Zero Hunger</h3>
+                 <p>The category chosen is Zero Hunger and prompt selected 
+                    for analysis addresses few of the important elements 
+                    effecting precision farming. Our analysis mainly focuses on 
+                    the key factors like overall rainfall recorded with respect to 
+                    each Mandal, overall seasonal yield in selected years, 
+                    seasonal yield of major crops like Bengal gram, groundnut 
+                    and maize, and overall yield in two different agricultural 
+                    seasons: rabi and kharif.</p>
+            </div>
+            <div class="skill-row">
+                <h3>Analysis</h3>
+                <p>Our analysis mainly focuses on the key factors like overall rainfall 
+                    recorded with respect to each District, overall seasonal yield in 
+                    selected years, seasonal yield of major crops like Bengal gram, 
+                    groundnut and maize, and overall yield in two different agricultural 
+                    seasons: rabi and kharif.</p>
+            </div>  
+    </section>
+    <hr>
+    <section id="dva">
+        <h1 class="dva-heading">Data Visualization & Analysis</h1>
+        <h3 class="dva-result">Results</h3>
+        <div class="split left">
+            <div class="centered">
+              <!-- <img class="result-image" src="images/one.png" alt="Avatar woman"> -->
+              <img class="result-image" src="{{url_for('static', filename='/images/one.png')}}"  />
+              <h3>This is graphical representation of comparisons between overall 
+                seasonal crop yield in two cropping seasons: rabi and kharif in 
+                the particular year (in all years, maximum production was seen 
+                rabi season)</h3>
+            </div>
+           
+        </div>
+          
+        <div class="split right">
+            <div class="centered">
+              <!-- <img class="result-image" src="images/two.png" alt="Avatar man"> -->
+              <img class="result-image" src="{{url_for('static', filename='/images/two.png')}}"/>
+              <h3>This is a coloured bar graph representation of rainfall (in 
+                mm) recorded in each district.
+                -The height rainfall was recorded in Adilabad District</h3>  
+            </div>           
+        </div>
+    </section><hr>
+    <section id="ml">  
+        <h1 class="ml-heading">Module Building And Tools Used</h1>
+        <div class="mb">
+            <h3>Tools used</h3>
+            <ul>
+                <li>Python</li>
+                <li>IBM Congos</li>
+                <li>Ms Excel</li>
+            </ul>
+            <h3>Code Analysis</h3>
+            <ul>
+                <li> Importing dataset:
+                <p>-Importing yield_data and weather_data using pandas</p></li>
+                <li>Data cleaning:
+                <p>-Detecting and removing the null values from the data sets.</p> </li>
+                <li>Anomaly detection:
+                <p>-Detecting the outliers using box plotting techniques and removing them.</p> </li>    
+                <li>Detecting relationship between datasets:
+                <p>-Forming a relationship between “weather_data and yield_data” using “district, year and crop_season” columns.</p> </li>
+                <li>Dataset merging:
+                <p>-Creating 3 sub datasets from weather data grouped by “year” i.e. 2017,2018,2019. <br>
+                -Taking average of Rainfall of each District of Telangana for same “crop_season”. <br>
+                -For every “year,district and crop_season” columns of “yield_data” we assign a rainfall value from 
+                the respective sub datasets that are chosen by year and from the chosen dataset “rainfall” data is 
+                selected based on “district and crop_season” columns. <br>
+                -The new dataset created is then saved and used for further analysis.</p></li>
+                    
+                <li>Data visualisation:
+                <p>-The data is visualised using line plots, bar plots, scatter plots to detect the trends in the data and relationships.</p> </li>
+                <li>Data transformation:
+                <p>-Using label encoding we label encode the columns of the dataset that contain string values.</p> </li>
+                <li>Fitting the data:
+                <p>-We use Random forest regressor model based on our findings in the previous sections. <br>
+                    -The data is split into x and y variables to be given to the model for training. <br>
+                    -X contains 'Dist_id', 'Season','Crop','Rainfall' values. <br>
+                    -Y contains ‘Season_yield' values. <br>
+                    -The x,y variables are split into x_train,x_test,y_train,y_test variables using a test_size of 20 percent.</p>
+                    </li>
+                <li>Training and testing:
+                <p> -The model fitting is done with the x_train and y_train variables. <br>
+                    -We now test the model by predicting the data based on x_test data. <br>
+                    -The predicted data is evaluated with y_test data.</p> </li>
+                <li>Model evaluation:
+                <p> -The model is evaluated using r2_score and other methods such as 
+                    plotting and classification reports. <br>
+                    -We get a r2_score of 0.85 approximately.</li>
+            </ul>
+        </div>
+    </section><hr>
+    <section id="">
+        <h1 class="con-heading">Conclusion</h1>
+        <div class="conclusion">
+            <p class="con-1">The agricultural practices of Organic farming indulged within Telangana can act as a catalyst to increase the 
+                    gross production of crops and their management. Current practices of Organic farming like- Protecting soil 
+                    quality by using organic materials and encouraging biological activity. Indirect supply of crop nutrients by 
+                    using soil microorganisms. Determination of nitrogen in the soil using pulses. Some organic methods like crop 
+                    rotation, natural predators, and organic fertilizers are used for controlling weeds and pests. Step by step 
+                    farming involves some substantial discourse- The first is crop selection, which means choosing the right crop 
+                    according to the season. After that, some important points are land preparation; selecting the right seeds 
+                    and sowing process, watering, and the addition of natural fertilizers. Other policies of Integrated farming 
+                    must be introduced in a large scale to help with maximization of yield, Rejuvenation/amelioration of systems 
+                    productivity and achieve agriculture-ecological equilibrium. Control the built-up of insects-pest, diseases and 
+                    weeds while reducing the use of chemical fertilizer and other harmful agrochemicals and pesticides. 
+                    Integrated farming techniques are extremely useful in the mitigation of negative impact of agriculture or 
+                    livestock on environment.</p><br>
+                
+            
+               <p class="con-2">Areas need to be emphasized are increasing the focus for small farm economy utilizing market 
+                    intelligence along with the State Governments involvement in fixing the MSP. Strengthening 
+                    National Agricultural Research system by allocating budget at least 3% of GSDP will give an 
+                    impetus to the holistic crop production in the state with an overall ecosystem including various 
+                    stakeholders and allied sectors. More emphasis for value addition and value chain 
+                    management. I-Skill development through capacity building and disaster management as 
+                    mentioned in NDMA may be further strengthened and real time mechanism to be evolved for 
+                    relief measures through RS & GIS technologies can developed further.</p><br>
+                <p class="con-3">The agricultural practices of Organic farming indulged within Telangana can act as a catalyst 
+                    to increase the gross production of crops and their management. Current practices of Organic 
+                    farming like- Protecting soil quality by using organic materials and encouraging biological 
+                    activity. Indirect supply of crop nutrients by using soil microorganisms. Determination of 
+                    nitrogen in the soil using pulses. Some organic methods like crop rotation, natural predators, 
+                    and organic fertilizers are used for controlling weeds and pests. Step by step farming involves 
+                    some substantial discourse- The first is crop selection, which means choosing the right crop 
+                    according to the season. After that, some important points are land preparation; selecting the 
+                    right seeds and sowing process, watering, and the addition of natural fertilizers. Other policies 
+                    of Integrated farming must be introduced in a large scale to help with maximization of yield, 
+                    Rejuvenation/amelioration of systems productivity and achieve agriculture-ecological 
+                    equilibrium. Control the built-up of insects-pest, diseases and weeds while reducing the use of 
+                    chemical fertilizer and other harmful agrochemicals and pesticides. Integrated farming 
+                    techniques are extremely useful in the mitigation of negative impact of agriculture or livestock 
+                    on environment.</p>
+        </div>
+    </section><hr>
+    
+    <form>
+    <div class="button">
+        <h2 class="click">Click the below button to go to model working page</h2>
+        <a href="input"> <button class="btn" type="button" href="input">ML model</button>
+         </form></div>
+</body>
+</html>         

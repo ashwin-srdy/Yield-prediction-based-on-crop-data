@@ -1,0 +1,59 @@
+/* 'District', 'Season','Crop','Rainfall' */
+
+.dist-inp{
+    width: 30vw;
+
+}
+.dist-inp-div{
+    display: inline-block;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.dist-inp>h3{
+    margin-top: 5vw;
+}
+
+.season-inp{
+    width: 25vw;
+}
+.season-inp-div{
+    display: inline-block;
+    position: absolute;
+    left: 50vw;
+    top: 5vh;
+}
+
+
+
+.crop-inp{
+    width: 30vw;
+
+}
+.crop-inp-div{
+    display: inline-block;
+    position: absolute;
+    top:25vh;
+    left: 5vw;
+}
+
+.crop-inp>h3{
+    margin-top: 5vw;
+}
+
+.rain-div{
+    position: absolute;
+    top:45vh;
+    left: 5vw;
+    margin: 10px ;
+}
+.rain-div>input{
+    width: 200px;
+}
+
+
+.btn{
+    position: absolute;
+    top:59vh;
+    left: 5vw;
+    margin: 10px ;
+}
