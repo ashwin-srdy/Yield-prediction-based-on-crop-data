@@ -12,6 +12,7 @@ Visualizations :
 
   1. yield_data-dashboard.pdf
   2. yield_data_dashboard.pdf
+  3. Rainfall vis.png
 
 
 Poster :
